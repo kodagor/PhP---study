@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Shopping is fun!</title>
+	</head>
+	<body>
+		<h1>Welcome in our store!</h1>
+		<h3>Here is some our staff</h3>
+		
+		<table>
+			<thead>
+				<tr>
+					<th>Staff</th><th>Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Shirts</td><td>14,99</td>
+				</tr>
+				<tr>
+					<td>Trousers</td><td>45,99</td>
+				</tr>
+				<tr>
+					<td>Hats</td><td>9,63</td>
+				</tr>
+				<tr>
+					<td>Shoes</td><td>31,55</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>Tax value: 23%</p>
+		
+		<form action="order.php" method="post">
+			<p>
+				<label for="shirts">Number of shirts: </label>
+				<input type="text" id="shirts" name="shirts" size=3 maxsize=3>
+			</p>
+			<p>
+				<label for="trousers">Number of trousers: </label>
+				<input type="text" id="trousers" name="trousers" size=3 maxsize=3>
+			</p>
+			<p>
+				<label for="hats">Number of hats</label>
+				<input type="text" id="hats" name="hats" size=3 maxsize=3>
+			</p>
+			<p>
+				<label for="shoes">Number of shoes</label>
+				<input type="text" id="shoes" name="shoes" size=3 maxsize=3>
+			</p>
+			<input type="submit" value="Make the order">
+		</form>
+	
+	</body>
+</html>
