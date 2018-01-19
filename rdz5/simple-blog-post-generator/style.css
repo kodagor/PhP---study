@@ -1,0 +1,16 @@
+.container {
+	margin: auto;
+	width: 1140px;
+	text-align: center;
+
+}
+
+.main {
+	margin: auto;
+	width: 50%;
+}
+.small {
+	color: #aaa;
+	text-align: left;
+	font-size: 80%;
+}

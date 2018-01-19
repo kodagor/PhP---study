@@ -1,0 +1,26 @@
+<!DOCTYPEhtml>
+<html lnag="en">
+  <head>
+    <meta charset="utf-8">
+	<title>Simple blog-post generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+	<h1>Simple blog-post generator</h1>
+	<form action="create_site.php" method="post">
+	  <p>
+	    <label for="title">Post title: </label>
+	    <br>
+	    <input type="text" id="title" name="title" size="50">
+	  </p>
+	  <p>
+	    <label for="content">Contents</label>
+		<br>
+		<textarea id="content" name="content" cols="50" rows="20"></textarea>
+	  </p>
+	  <input type="submit" value="Submit">
+	</form>
+    </div>
+  </body>
+</html>
