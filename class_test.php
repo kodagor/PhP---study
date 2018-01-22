@@ -1,9 +1,9 @@
 <?php
 
 	class Employee {
-		private $name;
-		private $age;
-		private $salary;
+		private $name = null;
+		private $age = null;
+		private $salary = null;
 		
 		public function __construct($name, $age, $salary) {
 			$this->name = $name;
@@ -11,21 +11,22 @@
 			$this->salary = $salary;
 		}
 		
-		public function get_name() {
+		public function getName() {
 			return $this->name;
 		}
 		
-		public function get_age() {
+		public function getAge() {
 			return $this->age;
 		}
 		
-		public function get_salary() {
+		public function getSalary() {
 			return $this->salary;
 		}
 	}
 	
 	$prac1 = new Employee("Daniel", 24, 3000);
 	
-	echo 'name='.$prac1->get_name().', age='.$prac1->get_age().', salary='.$prac1->get_salary();
+	echo 'name='.$prac1->getName().', age='.$prac1->getAge().', salary='
+		.$prac1->getSalary();
 
 ?>
