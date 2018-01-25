@@ -9,16 +9,16 @@
 	
 	if ($id > 0) {
 		// create a phantom query
-		$sth = $pdo->prepare('DELETE FROM `regal` WHERE `id` = :id');
+		$sth = $pdo->prepare('DELETE FROM `category` WHERE `id` = :id');
 		// data binding
 		$sth->bindParam(':id', $id);
 		// execute the query
 		$sth->execute();
 		
 		// back to file with table
-		header('location: loop.php');
+		header('location: category.php');
 	} else {
-		header('location: loop.php');
+		header('location: category.php');
 	}
 
 ?>

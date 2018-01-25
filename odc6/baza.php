@@ -9,4 +9,5 @@
 	catch (PDOException $e) {
 		echo "Wystąpił błąd: ".$e->getMessage();
 	}
+	include('header.php');
 ?>

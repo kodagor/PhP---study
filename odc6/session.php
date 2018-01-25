@@ -7,7 +7,7 @@
 	if (isSet($_POST['login'])) {
 		
 		$login = $_POST['login'];
-		$pass = md5($_POST['pass']);
+		$pass = $_POST['pass'];
 	
 		$sth = $pdo->prepare('SELECT * FROM `users` WHERE `login` = :login AND `pass` = :pass');
 		$sth->bindParam(':login', $login, PDO::PARAM_STR);
@@ -39,4 +39,6 @@
 <?php
 		die;
 	}
+	
+	include('footer.php');
 ?>
