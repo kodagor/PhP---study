@@ -1,6 +1,7 @@
 <?php
 
-	require_once('baza.php');
+	include('session.php');
+	
 	
 	// if $_GET['id'] exist: parse to int; else $id = 0;
 	$id = isSet($_GET['id']) ? intval($_GET['id']) : 0;
