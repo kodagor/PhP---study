@@ -20,7 +20,7 @@
         if ($result && isSet($result['id'])) {
             $_SESSION['logged'] = true;
             $_SESSION['userLogin'] = $result['login'];
-            header('location: loop.php');
+            header('location: loop.php?page=1');
         }
     }
 

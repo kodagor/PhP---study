@@ -9,7 +9,7 @@
     
     $count = $pdo->query('SELECT COUNT(`id`) as cnt FROM `regal`')->fetch()['cnt'];
     
-    $page = isSet($_GET['page']) ? intval($_GET['page'] - 1) : 1;
+    $page = isSet($_GET['page']) ? intval($_GET['page'] - 1) : 0;
     
     $limit = 10;
     
@@ -37,6 +37,7 @@
 
         echo '<th width="100">ID</th>';
         echo '<th width="100">Tytuł książki</th>';
+        echo '<th width="100">Okładka</th>';
         echo '<th width="100">Autor</th>';
         echo '<th width="100">Kategoria</th>';
         echo '<th width="200">Recenzja</th>';
@@ -50,6 +51,15 @@
 
             echo '<td>'.$value['id'].'</td>';
             echo '<td>'.$value['tytul'].'</td>';
+            echo '<td>';
+            
+                if ($value['cover']) {
+                    echo '<a href="img/'.str_replace('cover_', 'org_', $value['cover']).'" target="_blank"><img src="img/'.$value['cover'].'"></a>';
+                } else {
+                    echo 'Brak okładki';
+                }
+            
+            echo '</td>';
             echo '<td>'.$value['autor'].'</td>';
             echo '<td>'.$value['name'].'</td>';
             echo '<td>'.$value['recenzja'].'</td>';
@@ -65,17 +75,25 @@
     if ($page > 5) {
         echo '<a href="loop.php?page=1">Pierwsza</a> | ';
     }
-    
+    if ($page > 0){
+        echo '<a href="loop.php?page='.($page).'">Poprz</a> |';
+    }
     for($i = 1; $i <= $allPage; $i++) {
         
         $bold = ($i == ($page+1)) ? 'style="font-weight:bold"' : '';
         
+        
+        
         if (tl($i, $page-4, $page+5)){
             echo '<a href="loop.php?page='.$i.'"'.$bold.'>'.$i.'</a> | ';
         }
+        
+       
     }
-    
-     if ($page < $allPage - 1) {
+    if ($page < $allPage-1) {
+        echo '<a href="loop.php?page='.($page+2).'">Nast</a> |';
+    }
+    if ($page < $allPage - 1) {
         echo '<a href="loop.php?page='.$allPage.'">Ostatnia</a> |';
     }
     
