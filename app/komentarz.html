@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>Części samochodowe Janka - komentarz</title>
+	</head>
+	<body>
+		<h1>Komentarz klienta</h1>
+		<p>Proszę przekazać nam swoje komentarze.</p>
+		<form action="send_comment.php" method="post">
+			<p>
+				<label for="nazwa">Nazwisko:<br></label>
+				<input type="text" name="nazwa" size="40">
+			</p>
+			<p>
+				<label for="email">Adres poczty elektronicznej:<br></label>
+				<input type="text" name="email" size="40">
+			</p>
+			<p>
+				<label for="komentarz">Komentarz:<br></label>
+				<textarea name="komentarz" cols="75" rows="15" maxlength="255"></textarea>
+			</p>
+			<p>
+				<input type="submit" value="Wyślij komentarz">
+			</p>
+		</form>
+	</body>
+</html>
