@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Skup u Janka</title>
+	</head>
+	<body>
+		<form action="przetworzenie.php" method="post">
+			<table style="border: 0px;">
+				<tr style="background: #ccc;">
+					<td style="width:300px; text-align: center;">Produkty</td>
+					<td style="width:15px; text-align: center;">Ilość</td>
+				</tr>
+				<tr>
+					<td>Opony</td>
+					<td><input type="number" name="iloscopon" size="3" maxlength="3" value="0"></td>
+				</tr>
+				<tr>
+					<td>Olej</td>
+					<td><input type="number" name="iloscoleju" size="3" maxlength="3" value="0"></td>
+				</tr>
+				<tr>
+					<td>Świece zapłonowe</td>
+					<td><input type="number" name="iloscswiec" size="3" maxlength="3" value="0"></td>
+				</tr>
+				<tr>
+					<td>Adres:</td>
+					<td><input type="text" name="adres" size="36" maxlength="255"></td>
+				</tr>
+				
+				<tr>
+					<td>Jak dowiedzieli się Państwo o sklepie Janka?</td>
+					<td>
+						<select name="jak">
+							<option value = "a">Jestem stałym klientem
+							<option value = "b">Reklama telewizyjna
+							<option value = "c">Książka telefoniczna
+							<option value = "d">Znajomy
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center"><br><br><input type="submit" value="Złóż zamówienie"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

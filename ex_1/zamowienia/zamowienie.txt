@@ -1,0 +1,20 @@
+09:42, 02-04-2018	2 opon	2 butelek oleju	3 swiec zaplonowych	285.36 PLN (brutto)	kutasowa 128
+09:42, 02-04-2018	0 opon	2 butelek oleju	3 swiec zaplonowych	39.36 PLN (brutto)	kutasowa 128
+09:43, 02-04-2018	4 opon	1 butelek oleju	4 swiec zaplonowych	523.98 PLN (brutto)	arabska 88
+09:44, 02-04-2018	4 opon	1 butelek oleju	4 swiec zaplonowych	523.98 PLN (brutto)	Klopsowa zupa 88
+09:50, 02-04-2018	4 opon	123 butelek oleju	4 swiec zaplonowych	2024.58 PLN (brutto)	Klopsowa zupa 88
+09:51, 02-04-2018|	4 opon|	123 butelek oleju|	4 swiec zaplonowych|	2024.58 PLN (brutto)|	Klopsowa zupa 88
+09:52, 02-04-2018,	4 opon,	123 butelek oleju,	4 swiec zaplonowych,	2024.58 PLN (brutto),	Klopsowa zupa 881
+09:53, 02-04-2018,	4 opon,	123 butelek oleju,	4 swiec zaplonowych,	2024.58 PLN (brutto),	Klopsowa zupa 881
+11:21, 02-04-2018,	1 opon,	0 butelek oleju,	0 swiec zaplonowych,	123 PLN (brutto),	
+18:17, 02-04-2018,	0 opon,	0 butelek oleju,	0 swiec zaplonowych,	0 PLN (brutto),	
+18:17, 02-04-2018,	0 opon,	0 butelek oleju,	0 swiec zaplonowych,	0 PLN (brutto),	
+18:18, 02-04-2018,	0 opon,	0 butelek oleju,	0 swiec zaplonowych,	0 PLN (brutto),	
+18:18, 02-04-2018,	0 opon,	0 butelek oleju,	0 swiec zaplonowych,	0 PLN (brutto),	
+18:18, 02-04-2018,	4 opon,	2 butelek oleju,	4 swiec zaplonowych,	536.28 PLN (brutto),	konpackich 14
+18:42, 02-04-2018,	0 opon,	0 butelek oleju,	0 swiec zaplonowych,	0 PLN (brutto),	
+18:46, 02-04-2018,	0 opon,	1 butelek oleju,	0 swiec zaplonowych,	12.3 PLN (brutto),	
+18:47, 02-04-2018,	1 opon,	0 butelek oleju,	0 swiec zaplonowych,	123 PLN (brutto),	asd
+19:05, 02-04-2018,	1 opon,	0 butelek oleju,	0 swiec zaplonowych,	123 PLN (brutto),	asd
+19:09, 02-04-2018,	1 opon,	0 butelek oleju,	0 swiec zaplonowych,	123 PLN (brutto),	asdasdasdasdasdwwwwww
+20:28, 02-04-2018,	1 opon,	0 butelek oleju,	0 swiec zaplonowych,	123 PLN (brutto),	asdasdasdasdasdwwwwww
