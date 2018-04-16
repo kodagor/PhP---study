@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wyszukiwanie książek w księgarni</title>
+  </head>
+  <body>
+    <h1>Wyszukiwanie książek w księgarni</h1>
+    
+    <form action="rezultaty_pdo.php" method="post">
+      <p>
+        <strong>Wybierz metodę wyszukiwania: </strong><br>
+        <select name="metoda_szukania">
+          <option value="Autor">Autor</option>
+          <option value="Tytul">Tytuł</option>
+          <option value="ISBN">ISBN</option>
+        <select>
+      </p>
+      <p>
+        <strong>Wprowadź wyszukiwane wyrażenie: </strong><br>
+        <input name="wyrazenie" type="text" size="40">
+      </p>
+      <p>
+        <input type="submit" name="submit" value="Szukaj">
+      </p>
+    </form>
+  </body>
+</html>
