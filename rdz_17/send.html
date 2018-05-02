@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sending fiile</title>
+  </head>
+  <body>
+    <h1>Sending file</h1>
+    <form action="send.php" method="post" enctype="multipart/form-data">
+      <input type="hidden" name="MAX_FILE_SIZE" value="1000000">
+      <label for="user_file">Send this file: </label>
+      <input type="file" id="user_file" name="user_file">
+      <input type="submit" value="Send">
+    </form>
+  </body>
+</html>
