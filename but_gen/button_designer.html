@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Button designer</title>
+  </head>
+  <body>
+    <h1>Button designing</h1>
+    <form action="create_button.php" method="post">
+      <p>
+        <label for="text">Enter button text:<br></label>
+        <input type="text" id="text" name="text_button">
+      </p>
+      <p>
+        Choose color:<br>
+        <input type="radio" name="color" id="btn_red" value="red">
+          <label for="btn_red"> red </label><br>
+        <input type="radio" name="color" id="btn_green" value="green">
+          <label for="btn_green"> green </label><br>
+        <input type="radio" name="color" id="btn_blue" value="blue">
+          <label for="btn_blue"> blue </label>
+      </p>
+      <button type="submit" name="create_button">Create button</button>
+    </form>
+  </body>
+</html>
