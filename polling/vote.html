@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Polling</title>
+  </head>
+  <body>
+    <h1>Vote for someone</h1>
+    <p>Who is this lucky one, who will receive youre vote?</p>
+    <form method="post" action="show_results.php">
+      <p>
+        Choose Your politician:<br>
+        <input type="radio" name="vote" id="vote_jan_kowalski" value="Jan Kowalski">
+          <label for="vote_jan_kowalski">Jan Kowalski</label><br>
+        <input type="radio" name="vote" id="vote_maria_nowak" value="Maria Nowak">
+          <label for="vote_maria_nowak">Maria Nowak</label><br>
+        <input type="radio" name="vote" id="vote_piotr_zielek" value="Piotr Zielek">
+          <label for="vote_piotr_zielek">Piotr Zielek</label><br>
+      </p>
+      <button type="submit" name="show_results">Show Results</button>
+    </form>
+  </body>
+</html>
